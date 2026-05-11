@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop Amigo Fiel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+    <header>
+        <h1>PetShop Amigo Fiel</h1>
+        <nav>
+            <ul>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#precos">Preços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Bem-vindo ao nosso Pet Shop</h2>
+            <p>Cuidamos do seu melhor amigo com todo o carinho e dedicação que ele merece.</p>
+            <img src="img/photo.png" alt="Cachorro feliz no banho" width="400">
+        </section>
+
+        <section id="servicos">
+            <h3>Nossos Serviços</h3>
+            <ul>
+                <li>Banho e Tosa</li>
+                <li>Consulta Veterinária</li>
+                <li>Hospedagem Pet</li>
+                <li>Venda de Acessórios</li>
+            </ul>
+        </section>
+
+        <section id="precos">
+            <h3>Tabela de Preços</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Porte Pequeno</th>
+                        <th>Porte Grande</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Banho</td>
+                        <td>R$ 50,00</td>
+                        <td>R$ 80,00</td>
+                    </tr>
+                    <tr>
+                        <td>Tosa Higiênica</td>
+                        <td>R$ 40,00</td>
+                        <td>R$ 60,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contato">
+            <h3>Agende uma Visita</h3>
+            <form action="#">
+                <label for="nome">Nome do Pet:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">Seu E-mail:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensagem">Observações:</label><br>
+                <textarea id="mensagem" name="mensagem"></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PetShop Amigo Fiel - Todos os direitos reservados.</p>
+        <p>Desenvolvido por BrunooA</p>
+    </footer>
+
+</body>
+</html>
