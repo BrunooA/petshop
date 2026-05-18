@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - PetShop Amigo Fiel</title>
+    <link rel="icon" type="image/png" href="img/petshop.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1 class="logo">PetShop <span>Amigo Fiel</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contato" class="card">
+            <h3>Agende uma Visita</h3>
+            <p>Preencha os dados abaixo e entraremos em contato para confirmar o horário do seu pet.</p>
+
+            <form action="index.html" method="GET">
+                <div class="form-group">
+                    <label for="nome">Nome do Pet</label>
+                    <input type="text" id="nome" name="nome" placeholder="Ex: Thor" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Seu E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Ex: seuemail@dominio.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Observações / Necessidades Especiais</label>
+                    <textarea id="mensagem" name="mensagem"
+                        placeholder="Conte-nos se ele tem alergia, medo de soprador, etc..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">
+                    <span class="btn-text">Enviar Solicitação</span>
+                    <span class="btn-success-icon">✓ Enviado!</span>
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PetShop Amigo Fiel - Todos os direitos reservados.</p>
+        <p>Desenvolvido com 💙 por <strong>BrunooA</strong></p>
+    </footer>
+
+</body>
+
+</html>
